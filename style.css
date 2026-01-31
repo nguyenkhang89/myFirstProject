@@ -1,1 +1,15 @@
- 
+p {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 2px 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+p:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
